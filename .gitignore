@@ -1,0 +1,8 @@
+*.dll
+*.http
+*.sln
+*.user
+
+/BookmarkAPI/.vs/
+/BookmarkAPI/bin/
+/BookmarkAPI/obj/
