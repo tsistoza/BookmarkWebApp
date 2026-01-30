@@ -22,4 +22,12 @@ http://localhost:5225
 ```
 You can also change the ports, using compose.yaml file, exposing [your port] : [containers port]
 
+When you're done testing run each of these lines, make sure to change the IMAGEID:
+
+```
+docker compose down
+docker image ls
+docker rmi -f [IMAGEID] <= Run for each image
+```
+
 This is a project, I wanted to do to get used to writing api's in ASP.NET using minimal api.
